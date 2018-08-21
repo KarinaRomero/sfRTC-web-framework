@@ -92,7 +92,7 @@ class ClientWebRTC {
             otherUserName = name;
             peerConnection.setRemoteDescription(new RTCSessionDescription(offer));
             haveOffer = true;
-            self.onCall(haveOffer);
+            self.onCall(name);
 
         };
         wsConnection.onAnswer = function (answer) {
@@ -132,9 +132,9 @@ class ClientWebRTC {
 }
 
 
-ClientWebRTC.prototype.onLogin = function (success) {
+ClientWebRTC.prototype.onLogin = function (succes) {
 };
-ClientWebRTC.prototype.onCall = function (success) {
+ClientWebRTC.prototype.onCall = function (name) {
 
 };
 ClientWebRTC.prototype.onDataChannelMessage = function (message) {
@@ -146,7 +146,7 @@ ClientWebRTC.prototype.onRemoteStream = function (remoteStream) {
 ClientWebRTC.prototype.onLocalStream = function (localStream) {
 
 };
-ClientWebRTC.prototype.onLeave = function (success) {
+ClientWebRTC.prototype.onLeave = function (name) {
 
 };
 

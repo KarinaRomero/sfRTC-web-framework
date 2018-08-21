@@ -1,0 +1,22 @@
+li {
+    text-align: center;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.col-sm-4 {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+video {
+    width: 300px;
+    height: 300px;
+}
+canvas {
+    width: 400px;
+    height: 300px;
+}
+otherNameTitle {
+    color: rgb(226, 153, 43);
+}

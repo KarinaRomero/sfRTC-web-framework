@@ -10,8 +10,11 @@ var yourVideo = document.querySelector('#yours'),
     answerButton = document.querySelector('#answer'),
     hangUpButton = document.querySelector('#hangUp'),
     messageInput = document.querySelector('#message'),
+    otherName = document.querySelector('#otherName'),
+    otherMessage= document.querySelector('#messageReceived'),
     sendMessageButton = document.querySelector('#send'),
-    canvas = window.canvas = document.querySelector('canvas');
+    canvas = window.canvas = document.querySelector('canvas'),
+    otName = " ";
     canvas.width = 480;
     canvas.height = 360;
 
@@ -25,6 +28,7 @@ callButton.addEventListener('click', function (event) {
 });
 
 answerButton.addEventListener('click', function (event) {
+    otherusernameInput.value = otName;
     clientRTC.answer();
 });
 
@@ -48,11 +52,14 @@ clientRTC.onLogin = function (success) {
     alert("onLogin: " + success);
 };
 
-clientRTC.onCall = function (success) {
-    alert("onCall: " + success);
+clientRTC.onCall = function (name) {
+    otName = name;
+    alert("onCall: " + name);
 };
 
 clientRTC.onDataChannelMessage = function (message) {
+    otherName.textContent = otName;
+    otherMessage.textContent = message;
     alert("onMessage: " + message);
 };
 
