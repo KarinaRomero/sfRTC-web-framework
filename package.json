@@ -1,13 +1,13 @@
 {
   "name": "sfrtc-web-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a framework to simplify implementation webRTC protocol to web ",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
     "compress": "gulp compress",
     "package": "gulp package",
-    "build-npm": "gulp build-for-npm"
+    "build-for-npm": "gulp build-for-npm"
   },
   "repository": {
     "type": "git",

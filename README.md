@@ -5,14 +5,19 @@ This is a framework to simplify implementation webRTC protocol to web applicatio
 
 # Install
 
-Get the minify file from [https://github.com/KarinaRomero/sfRTC-web-framework/releases/download/1.0.0/sfRTC.zip](https://github.com/KarinaRomero/sfRTC-web-framework/releases/download/1.0.0/sfRTC.zip)
+- You can install by npm
+```
+npm i sfrtc-web-framework
+```
+or
+- Get the minify file from [https://github.com/KarinaRomero/sfRTC-web-framework/releases/download/1.0.0/sfRTC.zip](https://github.com/KarinaRomero/sfRTC-web-framework/releases/download/1.0.0/sfRTC.zip)
 
 # Setup
 
 Include the following line after your HTML file body:
 
 ```html
-: <script src="js/sfRTC.min.js"></script>
+<script src="node_modules/sfrtc-web-framework/sfRTC.min.js"></script>
 ```
 # Usage
 

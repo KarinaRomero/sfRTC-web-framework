@@ -23,7 +23,7 @@ gulp.task('compress', () =>
     .pipe(gulp.dest('dist'))
 )
 
-gulp.task('copy', () => gulp.src('./package.json').pipe(gulp.dest('./dist')))
+gulp.task('copy', () => gulp.src(['./package.json', './README.md']).pipe(gulp.dest('./dist')))
 
 gulp.task('package', gulp.series('build', 'compress'))
 gulp.task('build-for-npm', gulp.series('build', 'copy'))
