@@ -1,8 +1,7 @@
 # sfRTC
 This is a framework to simplify implementation webRTC protocol to web applications.
 
-[![Build Status](https://travis-ci.com/KarinaRomero/sfRTC-web-framework.svg?branch=master)](https://travis-ci.com/KarinaRomero/sfRTC-web-framework)
-: [![npm version](https://badge.fury.io/js/sfrtc-web-framework.svg)](https://badge.fury.io/js/sfrtc-web-framework)
+[![Build Status](https://travis-ci.com/KarinaRomero/sfRTC-web-framework.svg?branch=master)](https://travis-ci.com/KarinaRomero/sfRTC-web-framework) [![npm version](https://badge.fury.io/js/sfrtc-web-framework.svg)](https://badge.fury.io/js/sfrtc-web-framework)
 
 # Install
 
