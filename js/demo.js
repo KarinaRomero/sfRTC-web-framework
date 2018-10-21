@@ -1,4 +1,4 @@
-var clientRTC = new ClientWebRTC(false, true, {order: true}, 'ws://localhost:8888');
+var clientRTC = new ClientWebRTC(false, true, {order: true}, 'ws://your.url.signaling');
 
 var yourVideo = document.querySelector('#yours'),
     myVideo = document.querySelector('#my'),
