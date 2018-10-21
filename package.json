@@ -6,7 +6,8 @@
   "scripts": {
     "build": "gulp build",
     "compress": "gulp compress",
-    "package": "gulp package"
+    "package": "gulp package",
+    "build-npm": "gulp build-for-npm"
   },
   "repository": {
     "type": "git",
