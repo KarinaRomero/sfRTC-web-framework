@@ -13,7 +13,7 @@
     "url": "git+https://github.com/KarinaRomero/sfRTC-web-framework.git"
   },
   "author": "Karina Romero",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/KarinaRomero/sfRTC-web-framework/issues"
   },
