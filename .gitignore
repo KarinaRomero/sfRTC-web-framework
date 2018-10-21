@@ -83,5 +83,9 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# System files
 .DS_Store
+
+# Distribution files
+dist/
 # End of https://www.gitignore.io/api/node,visualstudiocode
