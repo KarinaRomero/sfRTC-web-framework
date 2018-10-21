@@ -4,7 +4,7 @@
   "description": "This is a framework to simplify implementation webRTC protocol to web ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp compress"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/KarinaRomero/sfRTC-web-framework#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-minify": "^3.1.0"
+    "ansi-colors": "^3.1.0",
+    "fancy-log": "^1.3.2",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify-es": "^1.0.4"
   }
 }

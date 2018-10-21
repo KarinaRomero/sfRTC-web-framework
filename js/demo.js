@@ -70,5 +70,3 @@ clientRTC.onRemoteStream = function (remoteStream) {
 clientRTC.onLeave = function (success) {
     alert("onLeave: " + success);
 };
-
-
