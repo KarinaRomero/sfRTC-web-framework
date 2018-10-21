@@ -7,3 +7,11 @@ before_script:
 
 script:
   - npm run package
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_TOKEN"
+  file: "./dist/*.zip"
+  skip_cleanup: true
+  on:
+    tags: true
