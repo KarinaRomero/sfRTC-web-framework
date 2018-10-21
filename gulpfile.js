@@ -19,8 +19,4 @@ gulp.task('compress', () =>
         .pipe(gulp.dest('dist'))
 );
 
-/*gulp.task('package', () =>
-    gulp.start('build'),
-    gulp.start('compress')
-);*/
 gulp.task('package', gulp.series('build', 'compress'));
