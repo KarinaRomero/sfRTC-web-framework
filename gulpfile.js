@@ -4,8 +4,6 @@ const uglify = require('gulp-uglify-es').default;
 const log = require('fancy-log');
 const color = require('ansi-colors');
 const zip = require('gulp-zip');
-const fs = require('fs');
-const json = JSON.parse(fs.readFileSync('./package.json'));
 
 gulp.task('build', () =>
     gulp.src('./js/clientWebRTC.js')
@@ -17,7 +15,7 @@ gulp.task('build', () =>
 
 gulp.task('compress', () =>
     gulp.src('dist/sfRTC.min.js')
-        .pipe(zip('sfRTC-'+json.version+'.zip'))
+        .pipe(zip('sfRTC.zip'))
         .pipe(gulp.dest('dist'))
 );
 
