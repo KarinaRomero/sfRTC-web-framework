@@ -25,7 +25,7 @@ To implement the framework you must do the following:
 ```html
 <!--To login-->
 <input type="text" id="username"  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-<button class="btn btn-outline-primary btn-sm btn-block" id="login">login</button>
+<button id="login">login</button>
 
 <!--To show the local and remote video-->
 <video id="my" autoplay></video>
